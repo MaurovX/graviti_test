@@ -11,7 +11,7 @@
  
  ## Project Motivation <a name="motivation"></a>
  
- As a part of the Data Science Nanodegree in Udacity, we are required to develop a small project using public data, I decided to use the GiveMeSomeCredit dataset given my current role in the organization financing my studies. The main question to tackle honestly was how do I rank among the best in the world at using this dataset. But for the purposes of the Nanodegree we are tasked to attack 3 bussiness questions:
+Part of technical challenge for Head Credit/Data , example of Credit EDA and Scorecard modelling, time spent on building 4h. From these notebooks you'll understand
  
 1. How do I group features under a credit rubric?
 2. What is the most important variable at classifiying between a good or bad creditor?
@@ -23,9 +23,8 @@ The full set of files related to this repo are public and free of use.
 There are 2 notebooks available here to showcase work related to the above questions, the first notebook is an EDA of the dataset, we seek to understand the dataset and to plot our insights. After that the Second notebook aims at answering the main question, what makes a borrower good or bad, and how can someone under this model improve their standing.
 
 ## Results<a name="results"></a>
-
-The main findings of the code can be found at the post available [here](https://medium.com/@mauricio.jac2/this-is-how-credit-agencies-see-you-74664d0ac6c9).
+We've found a good configuration using Logistic Regression that allows us to have an AUC of 65% in test with enough support for stable features. We've also computed an example of how a scorecard methodology could help in understanding the impacts of each feature into the model. 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Kaggle for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/c/GiveMeSomeCredit/overview).  Otherwise, feel free to use the code here as you would like! 
+Must give credit to Kaggle for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here]().  Otherwise, feel free to use the code here as you would like! 
